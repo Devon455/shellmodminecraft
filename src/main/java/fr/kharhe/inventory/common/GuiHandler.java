@@ -23,7 +23,6 @@ public class GuiHandler implements IGuiHandler {
     @Override
     public Object getServerGuiElement(int ID, EntityPlayer player, World world, int x, int y, int z) {
         Render.Debug(9000);
-        System.out.println("Ton grand père le chameau execution");
         if (ID == 5) {
             return new ContainerGuiInv(player.inventory, player);
         }

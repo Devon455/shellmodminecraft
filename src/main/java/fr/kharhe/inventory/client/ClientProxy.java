@@ -23,7 +23,6 @@ public class ClientProxy extends CommonProxy
         super.preInit();
         MinecraftForge.EVENT_BUS.register(new ClientEventHandler()); //Needed before init
         Render.Debug(9050);
-        //System.out.println("TA MERE LE LOADINGGGG ===================================");
     }
 
     @Override

@@ -41,7 +41,7 @@ public class ItemBase extends Item implements IModels {
 
     @Override
     public boolean onDroppedByPlayer(ItemStack item, EntityPlayer player) {
-        Render.Debug(9002);
+        Render.Debug(9003);
         return super.onDroppedByPlayer(item, player);
     }
 
