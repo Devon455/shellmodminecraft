@@ -1,0 +1,25 @@
+This mapping 'stable_39' was designed for MC 1.12! Use at your own peril.This mapping 'stable_39' was designed for MC 1.12! Use at your own peril.
+
+WARNING: You are using an unsupported version of ForgeGradle.
+Please consider upgrading to ForgeGradle 5 and helping in the efforts to get old versions working on the modern toolchain.
+See https://gist.github.com/TheCurle/fe7ad3ede188cbdd15c235cc75d52d4a for more info on contributing.
+:deobfCompileDummyTask
+:deobfProvidedDummyTask
+:sourceApiJava UP-TO-DATE
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava UP-TO-DATE
+:compileJavaNote: SpongePowered MIXIN Annotation Processor Version=0.8.3
+Note: ObfuscationServiceMCP supports type: "searge"
+Note: ObfuscationServiceMCP supports type: "notch"
+warning: The following options were not recognized by any processor: '[reobfNotchSrgFile, outRefMapFile, outNotchSrgFile, reobfSrgFile, outSrgFile]'
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:processResources UP-TO-DATE
+:classes
+
+BUILD SUCCESSFUL
+
+Total time: 2.115 secs
